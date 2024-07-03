@@ -2,28 +2,101 @@
 <html>
 	<head> 
 		<title>나는 박췐</title>
-		<meta charset="UTF-8"></meta>
 		<style>
-			table * {border : 1px solid gray;}
+			*{
+				padding: 0px;
+				/* margin: 0px; */
+				text-align: center;
+				font-family: "맑은 고딕";
+			}
+			.a {
+       			 background-image: url("./다운로드.jpg");
+     			 }
+			.profile{
+				width: 30%;
+				border-radius: 10000px;
+				margin: 0px 12px 24px 12px;
+				box-shadow: 20px 20px 30px -32px rgba(0,0,0, 0.3);
+			}
+			.center{
+				text-align: center;
+			}
+			blockquote{
+				margin: 24px;
+				padding: 24px;
+				text-align: center;
+			}
+			h1{
+				text-align: center;
+				font-size: 35px;
+				color: palevioletred;
+				font-family: "여기어때 잘난체 고딕";
+			}
+			a{
+				font-size: 15px;
+				display: inline-block;
+  				color: pink;
+				background-color: rgba(255, 250, 205, 0.432);
+				box-shadow: 0.1px 0.1px 16px -1.5px rgba(0,0,0, 0.3);
+				border-radius: 10000px;
+			}
+			h2{
+				font-size: 18px;
+			}
+			.highlight{
+ 					 display: inline;
+  					box-shadow: inset 0 -10px 0 #D9FCDB; 
+ 					 /*-10px은 highlight의 두께*/
+						}
+
+			h3{
+				font-size: 15px;
+			}
+			.emphasize{
+				color: red;
+			}
+			/* img{
+				margin: auto;
+			}
+			input[type="submit"]{
+				padding: 12px;
+			}
+			a img{
+				width: 30px;
+			} */
 		</style>
 	</head>
 	<body> 
+		
 		<h1>병아리 분석가 박채연🐥</h1>
-   		<img src="./profile.jpg" alt="프로필 사진" alt="쌍둥이맑음 루나"width="30%">
 		</br>
+		<div class="a">
+		
+   		<div class="center">
 		</br>
-		<blockquote cite="https://blog.naver.com/ljs584555/222969780869"><b>'인생은 언제나 두 번째 기회를 주는데, 우린 그걸 👼내일👼이라고 부르지.'</b></blockquote>
+			<img class="profile" src="profile.jpg" alt="프로필 사진" alt="쌍둥이맑음 루나" width="30%">
+		</div>
+	</div>
+		<blockquote cite="https://blog.naver.com/ljs584555/222969780869"><span class="highlight"><b>'인생은 언제나 두 번째 기회를 주는데, 우린 그걸 👼내일👼이라고 부르지.'</b></span></blockquote>
+
 		<a href="tel://+821041273142">📞Phone Number</a>
 		<a href="mailto:pcy0721@naver.com">📩e-mail</a>
+	</br>
+
+</br>
+
 		<dl>
-			<dt>이름</dt>
+			<dt><b>이름</b></dt>
 			<dd>박채연</dd>
-			<dt>생년월일</dt>
+			<dt><b>생년월일</b></dt>
 			<dd>2000/07/21</dd>
-			<dt>MBTI</dt>
+			<dt><b>MBTI</b></dt>
 			<dd>ISFJ</dd>
 		</dl>
+	</br>
+
 		<h2>학력</h2>
+	<div class="center">
 		<table>
 			<thead>
 			<tr>
@@ -42,23 +115,32 @@
 			</tr>
 			</tbody>
 		</table>
+	</div>
 		<hr/>
 		<hr/>
 		<h2>특징</h2>
-		<p>좋아하는 음식 : <br/>  <b>엽기떡볶이</b>:<i>덜매운맛</i></p>
-		<h3>취미</h3>
+		<h3>1. 좋아하는 음식 </h3><p><b>엽기떡볶이</b>:<i>덜매운맛</i></p>
+		<h3>2. 취미</h3>
 		<ol>
 			<li><b>빵</b> 만들기</li>
 			<li><b>수영</b>하기</li>
 			<li><b>중국어</b> 배우기</li>
 		</ol>
-		<h3>🍞🥐🥨빵 종류🍞🥐🥨</h3>
+	</br>
+		<h4>🍞🥐🥨빵 종류🍞🥐🥨</h4>
 		<ul>
 			<li>소금빵</li>
 			<li>에그타르트</li>
 		</ul>
-		<h2>자기소개</h2>
+		<h2 class="emphasize">자기소개</h2>
 		<p>~첫번째 문단~</p>
 		<p>~두번째 문단~</p>
+		</br>
+		<h3>좋.댓.구.알 ~~ 궁금한거 있으시면 연락주세요 *^0^*</h3>
+		<form>
+			<input type="email" placeholder="이메일">
+			<textarea placeholder="하실 말씀"></textarea>
+			<input type="submit">
+		</form>
 	</body> 
 </html>
